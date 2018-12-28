@@ -1,0 +1,192 @@
+/*
+
+Main color:         #28666E
+Secondary:          #033F63
+Highlight:          #5adbff
+Grey Tone:          #979B8D
+Text Color Dark:    #0B132B
+Text Color Head:    #3A506B
+Text Color Light:   #EDF2F4
+
+
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Merriweather', serif;
+
+
+
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+main {
+    background: #28666E;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h1 {
+    margin: 1em 0em 0em 0em;
+    color: #EDF2F4;
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
+}
+
+#survey-form {
+    background: #EDF2F4;
+    width: 80%;
+    padding: 2em;
+    margin: 2em;
+    font-family: 'Open Sans', sans-serif;
+    color: #0B132B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#description {
+    font-size: 1.5em;
+    margin: .5em;
+    font-family: 'Merriweather', serif;
+}
+
+.contactWrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.contactDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: .5em;
+}
+
+.contactDiv label {
+    width: 20%;
+    text-align: right;
+    margin-right: 1em;
+}
+
+.contactDiv input {
+    width: 200px;
+    height: 1.75em;
+}
+
+.roleDiv {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: .5em;
+}
+
+.radioSection {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: .5em;
+}
+
+.radioWrap {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.radioDiv {
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0em 1em;
+    vertical-align: middle;
+}
+
+.radioDiv label {
+    margin-left: 1em;
+}
+
+.serviceDiv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: .5em;
+}
+
+.serviceDiv select {
+    margin-left: 1em;
+}
+
+.checkDiv {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 1em .5em;
+}
+
+.checkWrap {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.checkboxDiv {
+    width: 70%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0em .5em .5em;
+    vertical-align: middle;
+}
+
+.checkboxDiv label {
+    margin-left: .5em;
+}
+
+.commentDiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+
+.commentDiv label {
+    margin-right: 1em;
+}
+
+.commentDiv textarea {
+    width: 30%;
+    height: 10em;
+    font-family: 'Open Sans', sans-serif;
+}
